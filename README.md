@@ -62,4 +62,8 @@ Logout: This module allows the user to Logout the application. Further operation
 ## THIS IS A BRANCH OF THE MASTER - AUTHENTICATION MODULE
 
 This branch has been created to develop the authentication module of OMS.
+
+## THIS IS A BRANCH OF THE MASTER - ROLE BASE ACCESS CONTROL MODULE
+
+This branch has been created to develop the RBAC module of OMS.
 	
