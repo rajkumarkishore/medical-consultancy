@@ -1,4 +1,4 @@
-package oms.model;
+package mcs.model;
 
 import javax.persistence.*;
 import java.util.Set;

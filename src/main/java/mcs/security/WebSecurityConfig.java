@@ -1,4 +1,4 @@
-package oms.security;
+package mcs.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -26,7 +26,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 
-		http.authorizeRequests().antMatchers("/", "/public/**").permitAll() // by-pass authentication for public urls
+		http.authorizeRequests().antMatchers("/", "/public/**","/assets/**").permitAll() // by-pass authentication for public urls
 				.anyRequest().authenticated().and().formLogin()
 				.loginPage("/login") 										// login page url
 				.successForwardUrl("/authenticated") 						// login success url

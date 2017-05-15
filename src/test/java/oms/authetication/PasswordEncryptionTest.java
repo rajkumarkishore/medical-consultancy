@@ -22,8 +22,13 @@ public class PasswordEncryptionTest {
 
 	@Test
 	public void test() {
-		String encrypt1 = bCryptPasswordEncoder().encode("admin");
-		String encrypt2 = bCryptPasswordEncoder().encode("staff");
+		//admin
+		String encrypt1 = bCryptPasswordEncoder().encode("admin1010");
+		//superuser
+		String encrypt2 = bCryptPasswordEncoder().encode("super1010");
+		
+		System.out.println(encrypt1);
+		System.out.println(encrypt2);
 		
 	}
 

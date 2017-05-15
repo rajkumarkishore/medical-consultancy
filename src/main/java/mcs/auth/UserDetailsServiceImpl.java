@@ -1,7 +1,7 @@
-package oms.auth;
+package mcs.auth;
 
-import oms.model.Role;
-import oms.model.User;
+import mcs.model.Role;
+import mcs.model.User;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;

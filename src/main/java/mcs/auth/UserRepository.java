@@ -1,6 +1,6 @@
-package oms.auth;
+package mcs.auth;
 
-import oms.model.User;
+import mcs.model.User;
 
 import org.springframework.data.repository.CrudRepository;
 
