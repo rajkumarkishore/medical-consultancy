@@ -36,7 +36,7 @@
 					autoclose : true,
 				};
 				date_input.datepicker(options);
-			})
+			});
 </script>
 <body>
 	<div class="container">

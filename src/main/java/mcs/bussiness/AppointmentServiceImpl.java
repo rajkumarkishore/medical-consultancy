@@ -43,9 +43,6 @@ public class AppointmentServiceImpl implements AppointmentService {
 		Patient patient = patientRepository.findOne(Integer.parseInt(vo
 				.getIdOfPatient()));
 
-		
-
-
 		Appointment appointment = new Appointment();
 
 		if (!patient.getIsRegistrationValid()) {

@@ -1,7 +1,5 @@
 package mcs.auth;
 
-import java.security.Principal;
-
 import javax.servlet.http.HttpServletRequest;
 
 import mcs.bussiness.AuthenticationService;
